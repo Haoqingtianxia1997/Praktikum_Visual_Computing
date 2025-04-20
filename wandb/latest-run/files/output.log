@@ -1,0 +1,637 @@
+/gris/gris-f/homelv/xsong/anaconda3/envs/pvc_old/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower server, config: num_rounds=200, no round_timeout
+/gris/gris-f/homelv/xsong/anaconda3/envs/pvc_old/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Flower ECE: gRPC server running (200 rounds), SSL is disabled
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Requesting initial parameters from one random client
+[92mINFO [39m:      Received initial parameters from one random client
+[92mINFO [39m:      Evaluating initial global parameters
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 1]
+[92mINFO [39m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_fit: received 2 results and 0 failures
+[92mINFO [39m:      Client c99f:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 12.825865745544434
+[92mINFO [39m:      -> dice: 0.5463400483131409
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 5.644692420959473
+[92mINFO [39m:      -> dice: 0.6255314946174622
+[92mINFO [39m:      Updated learning rate: 1e-06
+[93mWARNING [39m:   No fit_metrics_aggregation_fn provided
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.5766006112098694
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5662649273872375
+[93mWARNING [39m:   No evaluate_metrics_aggregation_fn provided
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 2]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 6.828100204467773
+[92mINFO [39m:      -> dice: 0.689561128616333
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 5.680919170379639
+[92mINFO [39m:      -> dice: 0.6352469325065613
+[92mINFO [39m:      Client c99f:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 9.539039611816406
+[92mINFO [39m:      -> dice: 0.562816321849823
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6128007769584656
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5557810664176941
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 3]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 2 results and 1 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 5.535370349884033
+[92mINFO [39m:      -> dice: 0.631219744682312
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 4.008108615875244
+[92mINFO [39m:      -> dice: 0.6811029314994812
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_evaluate: received 2 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6854760646820068
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.48934248089790344
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 4]
+[92mINFO [39m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_fit: received 2 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 3.7578108310699463
+[92mINFO [39m:      -> dice: 0.6464213728904724
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 3.157878875732422
+[92mINFO [39m:      -> dice: 0.6462029218673706
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_evaluate: received 2 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6468743681907654
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5496065020561218
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 5]
+[92mINFO [39m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_fit: received 2 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.7342708110809326
+[92mINFO [39m:      -> dice: 0.6833154559135437
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.490786552429199
+[92mINFO [39m:      -> dice: 0.6549853682518005
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_evaluate: received 2 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6711321473121643
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5452161431312561
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 6]
+[92mINFO [39m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_fit: received 2 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.193906545639038
+[92mINFO [39m:      -> dice: 0.6563037633895874
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.125591278076172
+[92mINFO [39m:      -> dice: 0.6438639163970947
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6532793641090393
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5151310563087463
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 7]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.008525848388672
+[92mINFO [39m:      -> dice: 0.6617568135261536
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.827378749847412
+[92mINFO [39m:      -> dice: 0.6475719213485718
+[92mINFO [39m:      Client f8c5:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.15152645111084
+[92mINFO [39m:      -> dice: 0.6678838133811951
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6600649356842041
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5109570622444153
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 8]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 2 results and 1 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.6729049682617188
+[92mINFO [39m:      -> dice: 0.6562100648880005
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.7595776319503784
+[92mINFO [39m:      -> dice: 0.671058714389801
+[92mINFO [39m:      Updated learning rate: 1e-06
+[92mINFO [39m:      configure_evaluate: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_evaluate: received 2 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6653331518173218
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5206273198127747
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 9]
+[92mINFO [39m:      configure_fit: strategy sampled 2 clients (out of 2)
+[92mINFO [39m:      aggregate_fit: received 2 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.411191701889038
+[92mINFO [39m:      -> dice: 0.656129777431488
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.6063989400863647
+[92mINFO [39m:      -> dice: 0.6686044931411743
+[92mINFO [39m:      Updated learning rate: 8e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6628994345664978
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5080448389053345
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 10]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 2.020653486251831
+[92mINFO [39m:      -> dice: 0.6635696887969971
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.3999494314193726
+[92mINFO [39m:      -> dice: 0.6577762365341187
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.392667531967163
+[92mINFO [39m:      -> dice: 0.668752908706665
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6625133156776428
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.490743488073349
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 11]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.6539530754089355
+[92mINFO [39m:      -> dice: 0.6648159623146057
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.4677371978759766
+[92mINFO [39m:      -> dice: 0.6714255809783936
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.5099539756774902
+[92mINFO [39m:      -> dice: 0.6737998723983765
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6727443933486938
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5045620203018188
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 12]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.4200587272644043
+[92mINFO [39m:      -> dice: 0.6665350794792175
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.4892915487289429
+[92mINFO [39m:      -> dice: 0.6656199097633362
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.3354878425598145
+[92mINFO [39m:      -> dice: 0.6701671481132507
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6677191853523254
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5021795630455017
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 13]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.3122565746307373
+[92mINFO [39m:      -> dice: 0.6711375713348389
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.3502964973449707
+[92mINFO [39m:      -> dice: 0.6759377121925354
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2258340120315552
+[92mINFO [39m:      -> dice: 0.6709740161895752
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6734962463378906
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5095100402832031
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 14]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2519758939743042
+[92mINFO [39m:      -> dice: 0.6704615354537964
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2268650531768799
+[92mINFO [39m:      -> dice: 0.6755462884902954
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.2663252353668213
+[92mINFO [39m:      -> dice: 0.6693583130836487
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6728464961051941
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.511265754699707
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 15]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.309272050857544
+[92mINFO [39m:      -> dice: 0.6687053442001343
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2094756364822388
+[92mINFO [39m:      -> dice: 0.6715165972709656
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.275961995124817
+[92mINFO [39m:      -> dice: 0.6708626747131348
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6719838976860046
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5190092325210571
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 16]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2394193410873413
+[92mINFO [39m:      -> dice: 0.6663840413093567
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.2349035739898682
+[92mINFO [39m:      -> dice: 0.6618449687957764
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.1503881216049194
+[92mINFO [39m:      -> dice: 0.6697068810462952
+[92mINFO [39m:      Updated learning rate: 8.666666666666666e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6688169836997986
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5277164578437805
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 17]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.258540153503418
+[92mINFO [39m:      -> dice: 0.665776789188385
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.0778928995132446
+[92mINFO [39m:      -> dice: 0.6660752892494202
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.250083088874817
+[92mINFO [39m:      -> dice: 0.6661147475242615
+[92mINFO [39m:      Updated learning rate: 7.6e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6664941310882568
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5160433053970337
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 18]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.152611255645752
+[92mINFO [39m:      -> dice: 0.6572916507720947
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.2536554336547852
+[92mINFO [39m:      -> dice: 0.64762282371521
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1971505880355835
+[92mINFO [39m:      -> dice: 0.6634604334831238
+[92mINFO [39m:      Updated learning rate: 7.6e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6600427627563477
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5211192965507507
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 19]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.2017624378204346
+[92mINFO [39m:      -> dice: 0.6560166478157043
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1024363040924072
+[92mINFO [39m:      -> dice: 0.649905264377594
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 1e-06
+[92mINFO [39m:      -> loss: 1.2216358184814453
+[92mINFO [39m:      -> dice: 0.6500356793403625
+[92mINFO [39m:      Updated learning rate: 7.6e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6551864743232727
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.517275869846344
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 20]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1244136095046997
+[92mINFO [39m:      -> dice: 0.6542102098464966
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2305538654327393
+[92mINFO [39m:      -> dice: 0.6398776769638062
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1488395929336548
+[92mINFO [39m:      -> dice: 0.6572418212890625
+[92mINFO [39m:      Updated learning rate: 6.933333333333333e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6548463702201843
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5291297435760498
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 21]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1866812705993652
+[92mINFO [39m:      -> dice: 0.6537660956382751
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.1693084239959717
+[92mINFO [39m:      -> dice: 0.6473140120506287
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1257673501968384
+[92mINFO [39m:      -> dice: 0.6546175479888916
+[92mINFO [39m:      Updated learning rate: 6.933333333333333e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6533241868019104
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5232030749320984
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 22]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.199203372001648
+[92mINFO [39m:      -> dice: 0.6372227668762207
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.0825731754302979
+[92mINFO [39m:      -> dice: 0.65474933385849
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.224225401878357
+[92mINFO [39m:      -> dice: 0.6523346900939941
+[92mINFO [39m:      Updated learning rate: 6.933333333333333e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6519272923469543
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5337463617324829
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 23]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.0393229722976685
+[92mINFO [39m:      -> dice: 0.6487808227539062
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2603039741516113
+[92mINFO [39m:      -> dice: 0.6405903100967407
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1824673414230347
+[92mINFO [39m:      -> dice: 0.6512898206710815
+[92mINFO [39m:      Updated learning rate: 6.933333333333333e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6487981081008911
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5233270525932312
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 24]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.1923918724060059
+[92mINFO [39m:      -> dice: 0.6335366368293762
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1411044597625732
+[92mINFO [39m:      -> dice: 0.6470981240272522
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.2085210084915161
+[92mINFO [39m:      -> dice: 0.6555794477462769
+[92mINFO [39m:      Updated learning rate: 6.933333333333333e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6477795839309692
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5346129536628723
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 25]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.180242657661438
+[92mINFO [39m:      -> dice: 0.6295352578163147
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.180113434791565
+[92mINFO [39m:      -> dice: 0.6392855644226074
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1967686414718628
+[92mINFO [39m:      -> dice: 0.6451360583305359
+[92mINFO [39m:      Updated learning rate: 6.08e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.63978511095047
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5199177861213684
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 26]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.2173540592193604
+[92mINFO [39m:      -> dice: 0.6286697387695312
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.11857271194458
+[92mINFO [39m:      -> dice: 0.6388663053512573
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.2672815322875977
+[92mINFO [39m:      -> dice: 0.6514920592308044
+[92mINFO [39m:      Updated learning rate: 6.08e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6404366493225098
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5277271866798401
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 27]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1842950582504272
+[92mINFO [39m:      -> dice: 0.6403257846832275
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 8e-07
+[92mINFO [39m:      -> loss: 1.1983400583267212
+[92mINFO [39m:      -> dice: 0.6282696723937988
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1259535551071167
+[92mINFO [39m:      -> dice: 0.640599250793457
+[92mINFO [39m:      Updated learning rate: 6.08e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6385003924369812
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.523557722568512
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 28]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.0876446962356567
+[92mINFO [39m:      -> dice: 0.640901505947113
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1818616390228271
+[92mINFO [39m:      -> dice: 0.6457747220993042
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.2389148473739624
+[92mINFO [39m:      -> dice: 0.6278656125068665
+[92mINFO [39m:      Updated learning rate: 5.546666666666667e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6400279998779297
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5303496718406677
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 29]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1761407852172852
+[92mINFO [39m:      -> dice: 0.6428889632225037
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.215485692024231
+[92mINFO [39m:      -> dice: 0.6409379839897156
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.221152663230896
+[92mINFO [39m:      -> dice: 0.6337361335754395
+[92mINFO [39m:      Updated learning rate: 5.546666666666667e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6421645879745483
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5284591913223267
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 30]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1977672576904297
+[92mINFO [39m:      -> dice: 0.64717036485672
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.114865779876709
+[92mINFO [39m:      -> dice: 0.6460714936256409
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1869419813156128
+[92mINFO [39m:      -> dice: 0.6335160136222839
+[92mINFO [39m:      Updated learning rate: 5.546666666666667e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6449973583221436
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5409981608390808
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 31]
+[92mINFO [39m:      configure_fit: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_fit: received 3 results and 0 failures
+[92mINFO [39m:      Client 9d07:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.1589525938034058
+[92mINFO [39m:      -> dice: 0.6457562446594238
+[92mINFO [39m:      Client 4b95:
+[92mINFO [39m:      -> lr: 5.12e-07
+[92mINFO [39m:      -> loss: 1.0959495306015015
+[92mINFO [39m:      -> dice: 0.6476488709449768
+[92mINFO [39m:      Client f801:
+[92mINFO [39m:      -> lr: 6.4e-07
+[92mINFO [39m:      -> loss: 1.1744191646575928
+[92mINFO [39m:      -> dice: 0.6356551647186279
+[92mINFO [39m:      Updated learning rate: 5.546666666666667e-07
+[92mINFO [39m:      configure_evaluate: strategy sampled 3 clients (out of 3)
+[92mINFO [39m:      aggregate_evaluate: received 3 results and 0 failures
+[92mINFO [39m:      -> Mega Dice Score: 0.6447386145591736
+[92mINFO [39m:      -> Mega Dice Score (aug): 0.5283042192459106
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 32]

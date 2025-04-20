@@ -1,0 +1,185 @@
+{
+    "os": "Linux-5.4.0-172-generic-x86_64-with-glibc2.31",
+    "python": "3.12.4",
+    "heartbeatAt": "2024-08-22T15:31:29.858087",
+    "startedAt": "2024-08-22T15:31:29.044369",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-r",
+        "200"
+    ],
+    "state": "running",
+    "program": "/gris/gris-f/homelv/xsong/Final Projekt/server_v03.py",
+    "codePathLocal": "server_v03.py",
+    "codePath": "server_v03.py",
+    "host": "pc3054",
+    "username": "xsong",
+    "executable": "/gris/gris-f/homelv/xsong/anaconda3/envs/pvc_old/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 2633.2699583333338,
+        "min": 1500.0,
+        "max": 2850.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3097.609,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3143.364,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3869.983,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3276.766,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3095.352,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3100.034,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1740.796,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 2063.407,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 2590.59,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 2368.479,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1702.164,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1943.002,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1854.112,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1955.149,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1891.376,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1971.798,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 1802.661,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 2047.756,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3096.018,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3869.985,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3430.054,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3096.461,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3095.976,
+            "min": 1500.0,
+            "max": 2850.0
+        },
+        {
+            "current": 3095.587,
+            "min": 1500.0,
+            "max": 2850.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 877.6366386413574,
+            "used": 562.9003143310547
+        }
+    },
+    "gpu": "NVIDIA A40",
+    "gpu_count": 6,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        },
+        {
+            "name": "NVIDIA A40",
+            "memory_total": 48305799168
+        }
+    ],
+    "memory": {
+        "total": 251.5722541809082
+    }
+}

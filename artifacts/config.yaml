@@ -1,0 +1,50 @@
+default_overlay_paths:
+  bubble: "./artifacts/imgs/bubble"
+  cell: "./artifacts/imgs/cell"
+  dark_spots: "./artifacts/imgs/dark_spots"
+  fat: "./artifacts/imgs/fat"
+  group: "./artifacts/imgs/group"
+  squamous: "./artifacts/imgs/squamous"
+  threads: "./artifacts/imgs/threads"
+
+src_folders:
+  client_1_train_1: "./client_1/train_1/images"
+  client_1_train_2: "./client_1/train_2/images"
+  client_2_train_1: "./client_2/train_1/images"
+  client_2_train_2: "./client_2/train_2/images"
+  client_3_train_1: "./client_3/train_1/images"
+  client_3_train_2: "./client_3/train_2/images"
+  # client_basic_train_1: "./client_basic/train_1/images"
+  # client_basic_train_2: "./client_basic/train_2/images"
+  validation: "./val/val_clean/images"
+
+overlay_counts:
+  bubble: 0
+  cell: 0
+  dark_spots: 25
+  group: 0
+  fat: 25
+  squamous: 25
+  threads: 0
+
+output_folders:
+  client_1_train_1: "./client_1/train_1_aug/images"
+  client_1_train_2: "./client_1/train_2_aug/images"
+  client_2_train_1: "./client_2/train_1_aug/images"
+  client_2_train_2: "./client_2/train_2_aug/images"
+  client_3_train_1: "./client_3/train_1_aug/images"
+  client_3_train_2: "./client_3/train_2_aug/images"
+  # client_basic_train_1: "./client_basic/train_1_aug/images"
+  # client_basic_train_2: "./client_basic/train_2_aug/images"
+  validation: "./val/val_aug/images"
+
+mask_folders:
+  client_1_train_1: "./client_1/train_1/masks"
+  client_1_train_2: "./client_1/train_2/masks"
+  client_2_train_1: "./client_2/train_1/masks"
+  client_2_train_2: "./client_2/train_2/masks"
+  client_3_train_1: "./client_3/train_1/masks"
+  client_3_train_2: "./client_3/train_2/masks"
+  # client_basic_train_1: "./client_basic/train_1/masks"
+  # client_basic_train_2: "./client_basic/train_2/masks"
+  validation: "./val/val_clean/masks"
