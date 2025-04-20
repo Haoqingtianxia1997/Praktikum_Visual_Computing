@@ -1,9 +1,17 @@
-1. 开始实验前先用nvitop查看空闲的gpu.
+1.Before starting the experiment, use nvitop to check for idle GPUs.
 
-2. 然后再用 lsof -i:<port_number> 命令查看端口是否空闲。例如：lsof -i:8080 查看8080是否被占用。如果运行该命令后没有任何输出，那就说明端口是空闲可用的。如果有输出说明被占用了。常用的端口在1024-49151之间，我用过8080，9090，8000，5000都可以。端口需要直接在代码中修改，目前还未作为传入参数。
+2.Then use the command lsof -i:<port_number> to check if a port is available.
+  For example, lsof -i:8080 checks whether port 8080 is in use. If the command returns no output, it means the port is free and available. If there is output, it means the port is already in use.
+  Commonly used ports are in the range of 1024–49151. I've used 8080, 9090, 8000, and 5000—all of which work.
+  The port number currently needs to be modified directly in the code, as it is not yet passed as an argument.
 
-3. 开始实验后记得记录4个线程的pid，分别为serve, client_1, client_2, client_3. 
+3.After starting the experiment, remember to record the PIDs of the four threads: serve, client_1, client_2, and client_3.
 
-4. 每个线程的output可以在相应的 .out 文件中查看。跑起3个client后别立马关vscode，等待跑一个回合后看一下每个 .out 文件中有没有报错，没问题的话再关vscode。
+4.The output of each thread can be found in its corresponding .out file.
+  After starting the three clients, do not close VS Code immediately. Wait until one full round has completed, then check each .out file for any errors. If there are no issues, you can safely close VS Code.
 
-5. 查看后台运行的线程有两种方法：a. 如果是在同一个terminal中查看的话用 jobs -l。b. 如果关了vscode后再次打开的话用 ps -def。强制结束线程用 kill -9 <pid>，例如 kill -9 2809860
+5.There are two ways to check for background threads:
+  a. If you're in the same terminal, use jobs -l.
+  b. If you've closed and reopened VS Code, use ps -def.
+  To forcefully terminate a thread, use kill -9 <pid>, for example:
+  kill -9 2809860
